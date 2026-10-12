@@ -1,6 +1,6 @@
 {
-  "name": "my-launcher",
-  "productName": "My Launcher",
+  "name": "iwoho-launcher",
+  "productName": "Iwoho Launcher",
   "version": "0.1.0",
   "description": "Красивый и плавный лаунчер Minecraft для собственного клиента",
   "main": "electron/main.js",
@@ -25,12 +25,12 @@
     "vite": "^5.4.10",
     "wait-on": "^8.0.1"
   },
-  "author": "My Launcher",
+  "author": "Iwoho",
   "build": {
-    "appId": "com.example.mylauncher",
-    "directories": { "output": "release" },
+    "appId": "com.iwoho.launcher",
+    "directories": { "output": "release", "buildResources": "." },
     "files": ["dist/**", "electron/**", "package.json"],
-    "win": { "target": "nsis" },
+    "win": { "target": "nsis", "icon": "icon.ico" },
     "mac": { "target": "dmg" },
     "linux": { "target": "AppImage" }
   }

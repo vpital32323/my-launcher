@@ -1,4 +1,4 @@
-# My Launcher
+# Iwoho Launcher
 
 Красивый и плавный лаунчер Minecraft для собственного Fabric-клиента.
 Electron + React + Framer Motion.
