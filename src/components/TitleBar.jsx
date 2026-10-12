@@ -3,7 +3,7 @@ export default function TitleBar() {
   return (
     <div className="titlebar">
       <div className="titlebar-logo">
-        <span className="dot" /> My Launcher
+        <span className="dot" /> Iwoho Launcher
       </div>
       <div className="titlebar-buttons">
         <button onClick={() => call('win:min')} aria-label="Свернуть">
